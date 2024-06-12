@@ -1,0 +1,46 @@
+.scrollTopperButton {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #BA3522;
+    position: fixed;
+    bottom: 0;
+    transform: translateY(100%);
+    right: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+
+    &.active {
+        bottom: 50px;
+        transform: translateY(0%);
+    }
+
+    .st-arrow-container {
+        width: 55%;
+        height: 37%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -65%);
+
+        .st-arrow-left,.st-arrow-right {
+            width: 12%;
+            height: 100%;
+            position: absolute;
+            background-color: white;
+            bottom: 0;
+            border-radius: 5px;
+            transform-origin: bottom;
+        }
+
+        .st-arrow-left {
+            left: 0;
+            transform: rotate(45deg);
+        }
+
+        .st-arrow-right {
+            right: 0;
+            transform: rotate(-45deg);
+        }
+    }
+}
