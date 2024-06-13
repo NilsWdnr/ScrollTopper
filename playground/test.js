@@ -8,7 +8,9 @@ const DOM = {};
 // === INIT =========
 
 const init = () => {
-    new ScrollTopper();
+    new ScrollTopper({
+        scrollHeight: 0
+    });
 }
 
 // === EVENTS & XHR =======
