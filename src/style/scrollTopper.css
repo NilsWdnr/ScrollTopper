@@ -14,6 +14,28 @@
   bottom: 50px;
   transform: translateY(0%);
 }
+@media screen and (max-width: 991px) {
+  .scrollTopperButton {
+    width: 60px;
+    height: 60px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .scrollTopperButton {
+    width: 55px;
+    height: 55px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .scrollTopperButton {
+    width: 45px;
+    height: 45px;
+    right: 30px;
+  }
+  .scrollTopperButton.active {
+    bottom: 30px;
+  }
+}
 .scrollTopperButton .st-arrow-container {
   width: 55%;
   height: 37%;

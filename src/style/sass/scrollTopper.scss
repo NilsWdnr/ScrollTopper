@@ -15,6 +15,26 @@
         transform: translateY(0%);
     }
 
+    @media screen and (max-width: 991px) {
+        width: 60px;
+        height: 60px;
+    }
+
+    @media screen and (max-width: 767px) {
+        width: 55px;
+        height: 55px;
+    }
+
+    @media screen and (max-width: 575px) {
+        width: 45px;
+        height: 45px;
+        right: 30px;
+
+        &.active {
+            bottom: 30px;
+        }
+    }
+
     .st-arrow-container {
         width: 55%;
         height: 37%;
