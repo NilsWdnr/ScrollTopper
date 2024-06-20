@@ -9,7 +9,9 @@ const DOM = {};
 
 const init = () => {
     new ScrollTopper({
-        scrollHeight: 0
+        scrollHeight: 0,
+        width: 80,
+        backgroundColor: "blue"
     });
 }
 
