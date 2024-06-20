@@ -34,3 +34,14 @@ You can use the following options:
 Number of pixels scrolled from the top of the page to display the back to top button. 
 
 **Type:** number
+
+### width
+Width of the button, specified in pixels. No "px" suffix.
+
+**Type:** number
+
+### backgroundColor
+Background-color of the button
+
+**Type:** string
+
